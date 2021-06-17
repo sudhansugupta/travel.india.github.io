@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    
+}
+  /* ///////////////header part///////////////// */
+
+header .head_img{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/front_cover.jpg); 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+.text_aaa h3{
+   color: white;
+   font-size: 20px;
+}
+.booking{
+    
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top:7%;
+    outline: none;
+    border: none;
+    border-radius: 40%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+   
+    
+
+    
+}
+
+header #nav_icon_1{
+    cursor: pointer;
+}
+.nav_bar_head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    margin-top: 2%;
+}
+.menu_bar{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    position: absolute;
+   
+
+}
+.menu_bar #left_col, #right_col{
+    flex-basis: 50%;
+    background-color: burlywood;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    transition: 0.9s;
+     
+}
+ul{
+    list-style: none;
+    margin: 0 auto;
+}
+ul li{
+    padding: 10% 0;
+}
+ul li a{
+    text-decoration: none;
+    color: ivory;
+    font-size: 28px;
+}
+
+#left_col ul li a:hover {
+    color: crimson;
+    font-size: 30px;
+}
+#right_col ul {
+  border-left: 2px solid white;
+  margin: 0px auto;
+
+ }
+ #right_col #close_icon{
+     cursor: pointer;
+     top: 7%;
+     right: 7%;
+     position: absolute;
+ }
+ #left_col{
+     transform: translateY(-100%);
+ }
+ #right_col{
+    transform: translateY(100%);
+}
+  /* ///////////////header part end///////////////// */
+  /* animation part start */
+.about_part1, .about_part2{
+     opacity: 0;
+  }
+.about_part1.animated, .about_part2.animated, .imgg1.animated, .imgg2.animated, .imgg3.animated, .imgg4.animated,.imgg5.animated, .imgg6.animated{
+    opacity: 1;
+ }
+  /* animation part end */
+
+.image{
+    /* background-image: url(../img/cover4.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    
+   
+}
+.textboxx{
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+.morebt{
+    cursor: pointer;
+   padding: 10px 25px;
+   background-color: transparent;
+   color: ivory;
+   margin: 20px;
+   z-index: 1;
+   /* position: relative; */
+   transition: 0.8s;
+   
+}
+.morebt:hover {
+    /* background-color: lawngreen; */
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    border: 1px solid white;
+}
+.textareaaa{
+    /* background-color: blue; */
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* position: relative; */
+  top: -100%;
+  transition: 0.8s;
+padding: 0;
+margin: 0 !important;
+  
+}
+#close_icon2{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.tttt p{
+    margin: 0px 5px;
+}
+.imggall{
+    transition: 0.9s;
+}
+.imgg1{
+    position: relative;
+}
+.imgg1, .imgg2 ,.imgg3, .imgg4, .imgg5, .imgg6{
+    display: none;
+    transition: 0.8s !important;
+    
+}
+.slider-gal img{
+    /* max-height: 400px !important; */
+
+}
+.slider-gal{
+    max-width: 600px !important;
+    max-height: 400px !important;
+}
+/* button .carousel-dark .carousel-indicators{
+    color: white !important;
+}
+.carousel-indicators button #carouselExampleDark{
+    color: white !important;
+    border-radius: 50% !important;
+} */
+.imggall h1{
+    color: red !important;
+}
