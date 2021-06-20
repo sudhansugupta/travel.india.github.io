@@ -5,6 +5,7 @@
 }
 body{
     font-family: sans-serif;
+    scroll-behavior: smooth !important;
     
 }
   /* ///////////////header part///////////////// */
@@ -201,21 +202,76 @@ margin: 0 !important;
     transition: 0.8s !important;
     
 }
-.slider-gal img{
-    /* max-height: 400px !important; */
 
-}
 .slider-gal{
     max-width: 600px !important;
     max-height: 400px !important;
 }
-/* button .carousel-dark .carousel-indicators{
-    color: white !important;
-}
-.carousel-indicators button #carouselExampleDark{
-    color: white !important;
-    border-radius: 50% !important;
-} */
+
 .imggall h1{
     color: red !important;
 }
+.imggall{
+    padding-bottom: 40px !important;
+    padding-top: 20px !important;
+   
+}
+.img_hero{
+    background-image: url(../img/cover1.jpg);
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+   
+    
+}
+.img_hero1{
+    background-image:url(../img/cover4.jpg);
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    height: 100vh;
+    
+    
+}
+
+#booking{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/cover6.jpg);
+    height: auto;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#booking input , .form-select{
+   color:ivory !important;
+    background: transparent !important;
+    border: transparent !important;
+    border-bottom: 2px solid ivory !important;
+    outline: none !important;
+}
+.form-select{
+    color: rgb(32, 9, 241) !important;
+}
+input .form-check-input{
+    border: 2px solid red !important;
+    color: white !important;
+}
+
+.form-check-input:checked {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important ;
+}
+.form-check-input{
+    border:2px solid white !important;
+}
+#booking .btn{
+    border: 1px solid ivory !important;
+}
+@media (max-width: 768px) { 
+    .img_hero{
+        height:40vh;
+    }
+    .img_hero1{
+        height: 40vh;
+    }
+ }

@@ -44,7 +44,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             </div>
             <div class="text_aaa">  <h1 class="text-white text-center text-capitalize">MAKE YOUR LIFE WITH FULL OF <span class="typed text-danger"></span> </h1>
                 <h3 class="pt-3">joint with us to make your advanture heighly memorable. </h3>
-               <a href="#"> <button type="button" class="btn booking">Booking Now <i class="fa fa-angle-double-right" style="font-size:30px;color: ivory; display: block;"></i></button></a>
+               <a href="#blog"> <button type="button" class="btn booking">Booking Now <i class="fa fa-angle-double-right" style="font-size:30px;color: ivory; display: block;"></i></button></a>
             </div>
           
             <div class="menu_bar">
@@ -52,9 +52,10 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                     <ul>
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="#aboutus">ABOUT</a></li>
-                        <li><a href="#">BLOG</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                        <li><a href="#">GALLERY</a></li>
+                        <li><a href="#tours">TOURS</a></li>
+                        <li><a href="#booking">BOOKING</a></li>
+                        <li><a href="#gallery">GALLERY</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
                 <div id="right_col">
@@ -63,6 +64,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                         <li><a href="#"><i class="	fa fa-twitter" style="font-size:50px;color:white;"></i></a></li>
                         <li><a href="#"><i class="	fa fa-youtube" style="font-size:50px;color:white;"></i></a></li>
                         <li><a href="#"><i class="	fa fa-linkedin" style="font-size:50px;color:white;"></i></a></li>
+                        <li><a href="#"><i class="	fa fa-instagram" style="font-size:50px;color:white;"></i></a></li>
                         <li><a href="#"><i class="	fa fa-lock" style="font-size:50px;color:white;"></i></a></li>
                     </ul>
                     <div id="close_icon"><i class="fa fa-close" style="font-size:50px;color:white;"></i></div>
@@ -91,9 +93,11 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             </div>
         </div>
     <!-- /////about us end////// -->
-  
+    <div class="img_hero">
+      <!-- <img src="img/cover4.jpg" class="img-fluid">   -->
+      </div>
     <!-- ///////travel place start/////// -->
-    <div class="tourist_place" id="">
+    <div class="tourist_place py-3" id="tours">
         <h1 id="oooo" class="text-danger text-center py-3 text-capitalize"> best tourist places In India</h1><hr class="w-75 mx-auto">
         <div class="container">
             <div class="owl-carousel owl-theme">
@@ -561,9 +565,88 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
   </div>
   </div>
 <!-- gallery kerala end -->
+ <!-- ///////travel place end/////// -->
+ <div class="img_hero1"></div>
+<!-- /////////booking strat//////// -->
+<section id="booking">
+  <div class="container py-4">
+    <h1 class="text-center text-danger">BOOK YOUR TOUR NOW</h1><hr>
+    <form>
+      <div class="row">
+        <div class="col-lg-10 col-12 justify-content-center align-content-center  mx-auto">
+          <h2 class="text-center pb-2">REGISTER NOW</h2>
+          <div class="col-md-6 mx-auto mt-2">
+            <label for="inputPassword4" class="form-label">First name</label>
+            <input type="text" class="form-control" id="" placeholder="enter your first name">
+          </div>
+          <div class="col-md-6 mx-auto mt-2">
+            <label for="inputPassword4" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="" placeholder="enter your last name">
+          </div>
+          
+          <form class="row g-3">
+            <div class="col-md-6 mx-auto mt-2">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="enter your valid Email">
+            </div>
+            <div class="col-md-6 mx-auto mt-2">
+              <label for="inputPassword4" class="form-label">Contact Number</label>
+              <input type="number" class="form-control" id=""  placeholder="enter your phone number ">
+            </div>
+            <!-- <div class="col-6 mx-auto mt-2">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-6 mx-auto mt-2">
+              <label for="inputAddress2" class="form-label">Address 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div> -->
+            <div class="col-md-6 mx-auto mt-2">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6 mx-auto mt-2">
+              <label for="inputState" class="form-label">State</label>
+              <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>west bengal</option>
+                <option>punjab</option>
+                <option>hariyana</option>
+                <option>bihar</option>
+                <option>odissa</option>
+                <option>jharkhand</option>
+                <option>uttarpradesh</option>
+                <option>madhyapradesh</option>
+                <option>jammu</option>
+              </select>
+            </div>
+            <div class="col-md-6 mx-auto mt-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="number" class="form-control" id="inputZip">
+            </div>
+            <div class="col-md-6  col-12 mx-auto">
+              <div class="form-check mx-auto   mt-2">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Check me out
+                </label>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 mx-auto mt-2">
+              <button type="submit" class="btn text-white">Submit</button>
+            </div>
+          </form>
+   
+        </div>
+      </div>
+    </form>
+    </div>
+  </div>
+</section>
 
-     <!-- ///////travel place end/////// -->
-<img src="img/cover4.jpg" class="img-fluid py-3">  
+<!-- /////////booking end//////// -->
+
+
 
 <!-- javascripts for nav bar -->
     <script>
@@ -645,6 +728,9 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
             }, {
                 offset: '75%'
             });
+            $("#booking").waypoint(function(direction){
+              $("#booking").addClass("animated bounceInRight")
+            })
     })
 </script>
 <!-- ///////////owl_carasol///////////// -->
